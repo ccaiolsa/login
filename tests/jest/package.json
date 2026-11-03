@@ -1,0 +1,19 @@
+{
+  "name": "testes-unitarios-jest",
+  "version": "1.0.0",
+  "description": "testes unitários e testes de API com Jest",
+  "license": "ISC",
+  "author": "Caio",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  },
+  "dependencies": {
+    "joi": "^18.3.1",
+    "supertest": "^7.3.1"
+  }
+}
