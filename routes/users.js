@@ -12,8 +12,8 @@ router.get('/', function (req, res, next) {
 /* POST - Criar usuário */
 router.post('/', function (req, res, next) {
   if (!req.body.email) {
-    return res.status(400), json({
-      mensage: "O campo email é obrigatório!"
+    return res.status(400).json({
+      message: "O campo email é obrigatório!"
     })
   }
   else {
@@ -49,7 +49,7 @@ router.delete('/:id', function (req, res, next) {
 
   if(!id){
     return res.status(400).json({
-      messagem: "Por favor, informe o ID do usuário a ser removido!"
+      message: "Por favor, informe o ID do usuário a ser removido!"
     })
   }else{
     return res.status(200).json({

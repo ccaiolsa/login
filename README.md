@@ -21,3 +21,6 @@ Ferramentas utilizadas:
 - Front: HTML e CSS puro
 - Back: JavaScript
 - Banco de Dados: Postgres
+
+Informações sobre acesso admin
+- Porta do Banco: 5432
